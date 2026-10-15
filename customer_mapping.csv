@@ -1,0 +1,11 @@
+legacy_customer_id,target_customer_id,mapping_status
+C101,G501,Matched - verify legal name
+C102,G502,Matched
+C103,G501,Duplicate candidate - manual review
+C104,G503,Matched
+C105,G504,"Matched - country inferred, validate"
+C106,G505,"Matched - payment terms inferred, validate"
+C107,,Unmapped - missing customer name
+C108,G506,Matched - country code normalized
+C109,G507,Matched - country code normalized
+C110,G508,Matched - country name normalized

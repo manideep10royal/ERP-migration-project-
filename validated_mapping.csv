@@ -1,0 +1,11 @@
+legacy_customer_id,customer_name_legacy,country,payment_terms,status,country_normalized_legacy,payment_terms_normalized_legacy,missing_customer_name,missing_country,missing_payment_terms,duplicate_name_candidate,invalid_country_code,invalid_payment_terms,target_customer_id,mapping_status,customer_name_target,country_normalized_target,payment_terms_normalized_target,mapping_missing,mapping_to_unknown_target,review_required
+C101,ABC Packaging,India,30 Days,Active,IN,Net 30,False,False,False,True,False,False,G501,Matched - verify legal name,ABC Packaging Ltd.,IN,Net 30,False,False,True
+C102,XYZ Industries,India,45 Days,Active,IN,Net 45,False,False,False,False,False,False,G502,Matched,XYZ Industries,IN,Net 45,False,False,False
+C103,ABC Packaging,India,30 Days,Active,IN,Net 30,False,False,False,True,False,False,G501,Duplicate candidate - manual review,ABC Packaging Ltd.,IN,Net 30,False,False,True
+C104,Global Containers,USA,Net 30,Active,US,Net 30,False,False,False,False,False,False,G503,Matched,Global Containers,US,Net 30,False,False,False
+C105,Northstar Drums,,30 Days,Active,,Net 30,False,True,False,False,False,False,G504,"Matched - country inferred, validate",Northstar Drums,IN,Net 30,False,False,True
+C106,Prime Polymer,India,,Active,IN,,False,False,True,False,False,False,G505,"Matched - payment terms inferred, validate",Prime Polymer,IN,Net 30,False,False,True
+C107,,Germany,60 Days,Active,,Net 60,True,False,False,False,True,False,,Unmapped - missing customer name,,,,True,False,True
+C108,Blue Barrel Co.,UK,Net 45,Active,GB,Net 45,False,False,False,False,False,False,G506,Matched - country code normalized,Blue Barrel Co.,GB,Net 45,False,False,False
+C109,GreenPack Ltd,IN,30 Days,Active,IN,Net 30,False,False,False,False,False,False,G507,Matched - country code normalized,GreenPack Ltd,IN,Net 30,False,False,False
+C110,Metro Containers,United States,Net 30,Active,US,Net 30,False,False,False,False,False,False,G508,Matched - country name normalized,Metro Containers,US,Net 30,False,False,False

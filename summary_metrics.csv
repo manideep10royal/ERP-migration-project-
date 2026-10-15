@@ -1,0 +1,13 @@
+metric,value
+Legacy records reviewed,10.0
+Target records available,8.0
+Records with missing customer name,1.0
+Records with missing country,1.0
+Records with missing payment terms,1.0
+Duplicate customer candidates (records),2.0
+Records with unrecognized country,1.0
+Records with unrecognized payment terms,0.0
+Records without target mapping,1.0
+Records requiring review,5.0
+Open issue instances,7.0
+Data quality score (%),90.0

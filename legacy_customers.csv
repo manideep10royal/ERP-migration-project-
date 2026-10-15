@@ -1,0 +1,11 @@
+legacy_customer_id,customer_name,country,payment_terms,status
+C101,ABC Packaging,India,30 Days,Active
+C102,XYZ Industries,India,45 Days,Active
+C103,ABC Packaging,India,30 Days,Active
+C104,Global Containers,USA,Net 30,Active
+C105,Northstar Drums,,30 Days,Active
+C106,Prime Polymer,India,,Active
+C107,,Germany,60 Days,Active
+C108,Blue Barrel Co.,UK,Net 45,Active
+C109,GreenPack Ltd,IN,30 Days,Active
+C110,Metro Containers,United States,Net 30,Active

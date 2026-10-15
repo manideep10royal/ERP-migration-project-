@@ -1,0 +1,9 @@
+target_customer_id,customer_name,country,payment_terms,status
+G501,ABC Packaging Ltd.,IN,Net 30,Active
+G502,XYZ Industries,IN,Net 45,Active
+G503,Global Containers,US,Net 30,Active
+G504,Northstar Drums,IN,Net 30,Active
+G505,Prime Polymer,IN,Net 30,Active
+G506,Blue Barrel Co.,GB,Net 45,Active
+G507,GreenPack Ltd,IN,Net 30,Active
+G508,Metro Containers,US,Net 30,Active

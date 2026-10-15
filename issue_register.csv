@@ -1,0 +1,8 @@
+legacy_customer_id,customer_name,issue,severity,recommended_action
+C107,,Missing customer name,High,Obtain verified legal/customer name before migration.
+C105,Northstar Drums,Missing country,Medium,Confirm country with source business owner.
+C106,Prime Polymer,Missing payment terms,Medium,Confirm payment terms against approved contract/master data.
+C101,ABC Packaging,Duplicate customer candidate,High,Compare tax/legal identifiers and obtain approval before consolidation.
+C103,ABC Packaging,Duplicate customer candidate,High,Compare tax/legal identifiers and obtain approval before consolidation.
+C107,,Unrecognized country,Medium,Map source country value to approved ISO-style code.
+C107,,Missing target mapping,High,Assign target customer or formally exclude from migration.
